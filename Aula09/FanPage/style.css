@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+
+.titulo{
+    font-family:  "Rubik Mono One", monospace;
+}
+
+
+
+
+body{
+    height: 2000px;
+    width: 1000px;
+    background-image:url(/Aula09/FanPage/JOJOASBR_launchTrailer_thumbnail.webp);
+    background-repeat: repeat;
+
+}
+    
+
+    .inf{
+        background-color: azure;
+        font-weight: bold;
+        font-size: 35px;
+
+    }
+
+
+    .titulo{
+        background-color: aliceblue;
+        font-size: 50px;
+    }
+
+    .coisas{
+        font-weight: bolder;
+        background-color: antiquewhite;
+        font-size: larger ;
+    }

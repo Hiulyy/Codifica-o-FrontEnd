@@ -1,0 +1,16 @@
+div{
+    background-color: aqua;
+}
+.um {
+    background-color: blue;
+}
+.dois {
+    background-color: blueviolet;
+}
+
+body{
+    height: 5000px;
+    width: 5000px;
+    background-image:url(/Aula09/E2Rc31qXIAMQvnW.jpg);
+    background-repeat: round;
+}
