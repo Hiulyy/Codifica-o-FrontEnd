@@ -1,0 +1,171 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.alagoas{
+    display: flex;
+}
+.alagoas-1{
+    width: 200px;
+    height: 400px;
+    background-color: red;
+}
+.alagoas-2{
+    width: 200px;
+    background-image: url(./badeira.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.alagoas-3{
+width: 200px;
+background-color: blue;
+}
+
+.Franca{
+    display: flex;
+}
+.franca-1{
+    width: 200px;
+    height: 400px;
+    background-color: blue;
+}
+.franca-2{
+    width: 200px;
+   
+}
+
+.franca-3{
+width: 200px;
+background-color: red;
+}
+
+.italia{
+    display: flex;
+}
+.italia-1{
+    width: 200px;
+    height: 400px;
+    background-color: green;
+}
+.italia-2{
+    width: 200px;
+   
+}
+
+.italia-3{
+width: 200px;
+background-color: red;
+}
+
+.Alemanha{
+    flex-direction: column;
+    display: flex;
+}
+.alemanha-1{
+    width: 600px;
+    height: 120px;
+    background-color: black;
+}
+.alemanha-2{
+    width: 600px;
+    height: 120px;
+   background-color: red;
+}
+
+.alemanha-3{
+width: 600px;
+height: 120px;
+background-color: yellow;
+}
+
+.argentina{
+    flex-direction: column;
+    display: flex;
+}
+.arg-1{
+    width: 600px;
+    height: 120px;
+    background-color: deepskyblue;
+    
+}
+.arg-2{
+    width: 600px;
+    height: 120px;
+   background-color: white;
+   background-image: url(./sol.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+.arg-3{
+width: 600px;
+height: 120px;
+background-color: deepskyblue;
+}
+
+.nigeria{
+    display: flex;
+}
+.nig-1{
+    width: 200px;
+    height: 400px;
+    background-color: green;
+}
+.nig-2{
+    width: 200px;
+   
+}
+
+.nig-3{
+width: 200px;
+background-color: green;
+}
+
+.holanda{
+    flex-direction: column;
+    display: flex;
+}
+.hol-1{
+    width: 600px;
+    height: 120px;
+    background-color: red;
+}
+.hol-2{
+    width: 600px;
+    height: 120px;
+   background-color: white;
+}
+
+.hol-3{
+width: 600px;
+height: 120px;
+background-color: blue;
+}
+
+.austria{
+    flex-direction: column;
+    display: flex;
+}
+.au-1{
+    width: 600px;
+    height: 120px;
+    background-color: red;
+}
+.au-2{
+    width: 600px;
+    height: 120px;
+   background-color: white;
+}
+
+.au-3{
+width: 600px;
+height: 120px;
+background-color: red;
+}
+
