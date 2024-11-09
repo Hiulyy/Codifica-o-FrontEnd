@@ -8,20 +8,23 @@
     <title>Formulario</title>
 </head>
 <body>
-    <div class="container">
+    <main class="container">
         <div class="contato">
-            <h1>Contact Us</h1>
+            <h1 class="title">Contact Us</h1>
         </div>
        
         <form>
-            <label for="First Name">First Name</label>
+            <div class="group-name">
+            <label for="First Name" class="block">First Name</label>
             <input id="First Name" type="text">
-            <label for="Last Name">Last Name</label>
+            <label for="Last Name" class="block">Last Name</label>
             <input id="Last Name" type="text">
+        </div>
+
         </form>
         <form>
             <br>
-            <label for="Email Address">Email Address</label>
+            <label for="Email Address" class="block">Email Address</label>
             <input id="Email Address" type="text">
         </form>
         
@@ -35,13 +38,14 @@
         </form>
         <form>
             <br>
-            <label for="Message">Message</label>
-            <input id="Message" type="text">
+            <label for="Message" class="block">Message *</label>
+            <textarea id="message" cols="80" rows="6"></textarea>
          </form>
-         <form>
-            <input id="contacted" type="radio">
-            <label for="contacted">I hereby consent to being contacted by the team</label>
-            </form>
+
+         <span>
+            <input id="term" type="checkbox" />
+            <label for="term">I hereby consent to being contacted by the team</label>
+         </span>
 
           <form >
             <br>
@@ -49,7 +53,7 @@
           </form>
         
     
-    </div>
+        </main>
     <script src="script.js" ></script>
 </body>
 </html>
